@@ -1,0 +1,36 @@
+:root{
+    --green-500: #22966D;
+    --blue-500: #4C5CF4;
+    --blue-700: #546F9D;
+    --gold-500: #AF9056;
+    --red-500: #C96047;
+    --grey-100: #FEFEFE;
+    --grey-200: #FCFEFF;
+    --grey-400: #97999D;
+    --grey-500: #96979B;
+    --grey-600: #6E7177;
+    --grey-700: #232428;
+    --grey-800: #13171A;
+    --grey-900: #131617;
+    --radius-default: 6px;
+    --radius-button: 8px;
+    --shadow: 0 4px 4px #FFFFFF25;
+}
+
+h1, h2, h3, h4, h5, h6{
+    font-family: 'Ubuntu', sans-serif;
+    color: var(--grey-100);
+}
+
+body, button{
+    font-family: 'Poppins', sans-serif;
+    color: var(--grey-400);
+}
+
+body{
+    background-color: var(--grey-900);
+}
+
+a{
+    color: var(--grey-100);
+}
