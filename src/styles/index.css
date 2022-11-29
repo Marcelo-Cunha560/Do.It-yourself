@@ -43,5 +43,52 @@ header > h1 > span{
     color: var(--grey-100);
     padding: 16px 24px;
     border-radius: var(--radius-button);
-cursor: pointer;
+    cursor: pointer;
+}
+
+.main__container{
+    display: flex;
+    /* padding-top: 150px; */
+
+    padding-top: 50px;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    gap: 32px;
+    margin-bottom: bottom 32px;
+    
+}
+
+.main__title{
+    font-size: 60px;
+
+    text-align: center;
+
+    width: 800px;
+
+    line-height: 150%;
+}
+
+.main__title > span{
+    color: var(--blue-500);
+}
+
+.main__subtitle{
+    font-size: 16px;
+
+    color: var(--grey-500);
+
+    width: 800px;
+
+    line-height: 150%;
+
+
+}
+
+figure{
+    margin-top: 128px;
+}
+
+figure > figcaption {
+    display: none;
 }
