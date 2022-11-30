@@ -3,9 +3,17 @@ header{
     align-items: center;
     justify-content: space-between;
 
+    position: fixed;
+
+    top: 0;
+    left: 0; 
+    /* right: 0;
+    bottom: 0; */
+
     padding: 0 64px;
 
     height: 100px;
+    width: 100vw;
 
     box-shadow: var(--shadow);
 
@@ -48,9 +56,9 @@ header > h1 > span{
 
 .main__container{
     display: flex;
-    /* padding-top: 150px; */
+    padding-top: 150px;
 
-    padding-top: 50px;
+    /* padding-top: 50px; */
     align-items: center;
     justify-content: center;
     flex-direction: column;
@@ -91,4 +99,48 @@ figure{
 
 figure > figcaption {
     display: none;
+}
+
+.price__title{
+    font-size: 32px;
+    
+    margin: 64px 0px;
+}
+
+.prices__container{
+    display: flex;
+    gap: 32PX;
+}
+
+.prices__card{
+    border: 1px solid;
+
+    padding: 32px;
+
+    border-radius: var(--radius-defaults);
+
+    width: 454px;
+
+    height: 512px;
+
+    position: relative;
+
+}
+
+.prices__itens{
+    border-color: var(--grey-500);
+
+    background-color: var(--grey-500);
+
+    color: var(--grey-100);
+
+    display: flex;
+
+    flex-direction: column;
+
+    justify-content: flex-start;
+
+    gap: 32px;
+
+    
 }
