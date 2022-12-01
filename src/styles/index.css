@@ -13,7 +13,7 @@ header{
     padding: 0 64px;
 
     height: 100px;
-    width: 100vw;
+    width: 100vw; 
 
     box-shadow: var(--shadow);
 
@@ -125,12 +125,13 @@ figure > figcaption {
 
     position: relative;
 
+    color: var(--grey-100);
 }
 
-.prices__itens{
-    border-color: var(--grey-500);
+.prices__item{
+    border-color: var(--green-500);
 
-    background-color: var(--grey-500);
+    background-color: var(--green-500);
 
     color: var(--grey-100);
 
@@ -142,5 +143,64 @@ figure > figcaption {
 
     gap: 32px;
 
-    
+}
+
+.prices__item > h3{
+    font-size: 16px;
+
+    margin: 16px 0px;
+}
+
+.prices__item--value{
+    font-size: 40px;
+}
+
+.prices__item--value > span{
+    font-size: 11px;
+}
+
+hr{
+    margin: 16px 0;
+}
+
+.prices__item > ul{
+    list-style: disc;
+
+    margin-left: 16px;
+
+    display: flex;
+    flex-direction: column;
+    gap: 16px;
+}
+
+.prices__button{
+    position: absolute;
+
+    bottom: 16px;
+    left: 50px; 
+
+    width: 344px;
+
+    padding: 8px 0;
+
+    border-color: var(--grey-900);
+    outline: none;
+    border-radius: var(--radius-defaults);
+
+    background-color: var(--grey-200);
+    color: var(--grey-900);
+
+    cursor: pointer;
+}
+
+.business__title{
+    margin: 32px 0;
+
+    font-size: 40px;
+}
+
+.business__desc {
+    margin: 47px 0;
+
+
 }
